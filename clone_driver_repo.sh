@@ -4,7 +4,7 @@
 trap 'read -p "run: $BASH_COMMAND "' DEBUG
 
 cd ~/workspace
-git clone git://osmocom.org/rtl-sdr.git
+git clone https://github.com/osmocom/rtl-sdr.git
 cd rtl-sdr/
 mkdir build
 cd build
